@@ -60,3 +60,28 @@ C:\Users\QUOC NLA\Desktop\ProjectX\ProjectX\ProjectX\obj\x86\Debug\ProjectX.cspr
 C:\Users\QUOC NLA\Desktop\ProjectX\ProjectX\ProjectX\obj\x86\Debug\ProjectX.csproj.CopyComplete
 C:\Users\QUOC NLA\Desktop\ProjectX\ProjectX\ProjectX\obj\x86\Debug\ProjectX.exe
 C:\Users\QUOC NLA\Desktop\ProjectX\ProjectX\ProjectX\obj\x86\Debug\ProjectX.pdb
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.csproj.AssemblyReference.cache
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.Form1.resources
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.frmAbout.resources
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.Properties.Resources.resources
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.csproj.GenerateResource.cache
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.csproj.CoreCompileInputs.cache
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.exe
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.pdb
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\ProjectX.exe
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\ProjectX.pdb
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\mscorlib.dll
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\sortkey.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\sorttbls.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\big5.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\bopomofo.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\ksc.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\prc.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\prcp.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\xjis.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\normidna.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\normnfc.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\normnfd.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\normnfkc.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\bin\Debug\normnfkd.nlp
+C:\Users\QUOC NLA\Desktop\ProjectX\Vigenere Cipher\ProjectX\obj\x86\Debug\ProjectX.csproj.CopyComplete
