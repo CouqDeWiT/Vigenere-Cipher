@@ -37,12 +37,14 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.Vigenere_btnClear = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.Vigenere_btnChonKhoaFileBanma = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.Vigenere_txtKhoaBanma = new System.Windows.Forms.TextBox();
             this.Vigenere_btnLuuFileBanma = new System.Windows.Forms.Button();
             this.Vigenere_btnChonFileBanma = new System.Windows.Forms.Button();
             this.Vigenere_txtBanma = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.Vigenere_btnChonKhoafileBanro = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.Vigenere_txtKhoaBanro = new System.Windows.Forms.TextBox();
             this.Vigenere_btnLuuFileBanro = new System.Windows.Forms.Button();
@@ -110,7 +112,7 @@
             this.tabPage5.Controls.Add(this.Vigenere_btnGiaima);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(932, 394);
+            this.tabPage5.Size = new System.Drawing.Size(932, 445);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Vigenère";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -129,6 +131,7 @@
             // 
             this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox6.Controls.Add(this.Vigenere_btnChonKhoaFileBanma);
             this.groupBox6.Controls.Add(this.label6);
             this.groupBox6.Controls.Add(this.Vigenere_txtKhoaBanma);
             this.groupBox6.Controls.Add(this.Vigenere_btnLuuFileBanma);
@@ -137,24 +140,36 @@
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.groupBox6.Location = new System.Drawing.Point(509, 3);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(420, 400);
+            this.groupBox6.Size = new System.Drawing.Size(420, 439);
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Ciphertext";
+            this.groupBox6.Text = "Bản mật mã";
+            // 
+            // Vigenere_btnChonKhoaFileBanma
+            // 
+            this.Vigenere_btnChonKhoaFileBanma.BackColor = System.Drawing.Color.Transparent;
+            this.Vigenere_btnChonKhoaFileBanma.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Vigenere_btnChonKhoaFileBanma.Location = new System.Drawing.Point(9, 391);
+            this.Vigenere_btnChonKhoaFileBanma.Name = "Vigenere_btnChonKhoaFileBanma";
+            this.Vigenere_btnChonKhoaFileBanma.Size = new System.Drawing.Size(103, 36);
+            this.Vigenere_btnChonKhoaFileBanma.TabIndex = 4;
+            this.Vigenere_btnChonKhoaFileBanma.Text = "Chọn tập tin";
+            this.Vigenere_btnChonKhoaFileBanma.UseVisualStyleBackColor = false;
+            this.Vigenere_btnChonKhoaFileBanma.Click += new System.EventHandler(this.Vigenere_btnChonKhoaFileBanma_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label6.Location = new System.Drawing.Point(16, 313);
+            this.label6.Location = new System.Drawing.Point(6, 366);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 17);
+            this.label6.Size = new System.Drawing.Size(45, 17);
             this.label6.TabIndex = 3;
-            this.label6.Text = "Key :";
+            this.label6.Text = "Khóa:";
             // 
             // Vigenere_txtKhoaBanma
             // 
-            this.Vigenere_txtKhoaBanma.Location = new System.Drawing.Point(115, 339);
+            this.Vigenere_txtKhoaBanma.Location = new System.Drawing.Point(118, 391);
             this.Vigenere_txtKhoaBanma.Multiline = true;
             this.Vigenere_txtKhoaBanma.Name = "Vigenere_txtKhoaBanma";
             this.Vigenere_txtKhoaBanma.Size = new System.Drawing.Size(164, 34);
@@ -163,11 +178,11 @@
             // Vigenere_btnLuuFileBanma
             // 
             this.Vigenere_btnLuuFileBanma.BackColor = System.Drawing.Color.Silver;
-            this.Vigenere_btnLuuFileBanma.Location = new System.Drawing.Point(332, 339);
+            this.Vigenere_btnLuuFileBanma.Location = new System.Drawing.Point(332, 391);
             this.Vigenere_btnLuuFileBanma.Name = "Vigenere_btnLuuFileBanma";
             this.Vigenere_btnLuuFileBanma.Size = new System.Drawing.Size(82, 36);
             this.Vigenere_btnLuuFileBanma.TabIndex = 1;
-            this.Vigenere_btnLuuFileBanma.Text = "Save";
+            this.Vigenere_btnLuuFileBanma.Text = "Lưu";
             this.Vigenere_btnLuuFileBanma.UseVisualStyleBackColor = false;
             this.Vigenere_btnLuuFileBanma.Click += new System.EventHandler(this.Vigenere_btnLuuFileBanma_Click);
             // 
@@ -175,11 +190,11 @@
             // 
             this.Vigenere_btnChonFileBanma.BackColor = System.Drawing.Color.Transparent;
             this.Vigenere_btnChonFileBanma.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Vigenere_btnChonFileBanma.Location = new System.Drawing.Point(6, 339);
+            this.Vigenere_btnChonFileBanma.Location = new System.Drawing.Point(6, 305);
             this.Vigenere_btnChonFileBanma.Name = "Vigenere_btnChonFileBanma";
             this.Vigenere_btnChonFileBanma.Size = new System.Drawing.Size(103, 36);
             this.Vigenere_btnChonFileBanma.TabIndex = 1;
-            this.Vigenere_btnChonFileBanma.Text = "Choose file";
+            this.Vigenere_btnChonFileBanma.Text = "Chọn tập tin";
             this.Vigenere_btnChonFileBanma.UseVisualStyleBackColor = false;
             this.Vigenere_btnChonFileBanma.Click += new System.EventHandler(this.Vigenere_btnChonFileBanma_Click);
             // 
@@ -195,6 +210,7 @@
             // 
             this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox5.Controls.Add(this.Vigenere_btnChonKhoafileBanro);
             this.groupBox5.Controls.Add(this.label5);
             this.groupBox5.Controls.Add(this.Vigenere_txtKhoaBanro);
             this.groupBox5.Controls.Add(this.Vigenere_btnLuuFileBanro);
@@ -203,23 +219,34 @@
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.groupBox5.Location = new System.Drawing.Point(8, 3);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(420, 400);
+            this.groupBox5.Size = new System.Drawing.Size(420, 439);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Plaintext";
+            this.groupBox5.Text = "Bản rõ";
+            // 
+            // Vigenere_btnChonKhoafileBanro
+            // 
+            this.Vigenere_btnChonKhoafileBanro.BackColor = System.Drawing.Color.Transparent;
+            this.Vigenere_btnChonKhoafileBanro.Location = new System.Drawing.Point(6, 391);
+            this.Vigenere_btnChonKhoafileBanro.Name = "Vigenere_btnChonKhoafileBanro";
+            this.Vigenere_btnChonKhoafileBanro.Size = new System.Drawing.Size(103, 36);
+            this.Vigenere_btnChonKhoafileBanro.TabIndex = 4;
+            this.Vigenere_btnChonKhoafileBanro.Text = "Chọn tập tin";
+            this.Vigenere_btnChonKhoafileBanro.UseVisualStyleBackColor = false;
+            this.Vigenere_btnChonKhoafileBanro.Click += new System.EventHandler(this.Vigenere_btnChonKhoafileBanro_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 313);
+            this.label5.Location = new System.Drawing.Point(6, 371);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 17);
+            this.label5.Size = new System.Drawing.Size(45, 17);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Key:";
+            this.label5.Text = "Khóa:";
             // 
             // Vigenere_txtKhoaBanro
             // 
-            this.Vigenere_txtKhoaBanro.Location = new System.Drawing.Point(115, 339);
+            this.Vigenere_txtKhoaBanro.Location = new System.Drawing.Point(115, 393);
             this.Vigenere_txtKhoaBanro.Multiline = true;
             this.Vigenere_txtKhoaBanro.Name = "Vigenere_txtKhoaBanro";
             this.Vigenere_txtKhoaBanro.Size = new System.Drawing.Size(164, 34);
@@ -228,22 +255,22 @@
             // Vigenere_btnLuuFileBanro
             // 
             this.Vigenere_btnLuuFileBanro.BackColor = System.Drawing.Color.Silver;
-            this.Vigenere_btnLuuFileBanro.Location = new System.Drawing.Point(332, 339);
+            this.Vigenere_btnLuuFileBanro.Location = new System.Drawing.Point(332, 393);
             this.Vigenere_btnLuuFileBanro.Name = "Vigenere_btnLuuFileBanro";
             this.Vigenere_btnLuuFileBanro.Size = new System.Drawing.Size(82, 36);
             this.Vigenere_btnLuuFileBanro.TabIndex = 1;
-            this.Vigenere_btnLuuFileBanro.Text = " Save";
+            this.Vigenere_btnLuuFileBanro.Text = "Lưu";
             this.Vigenere_btnLuuFileBanro.UseVisualStyleBackColor = false;
             this.Vigenere_btnLuuFileBanro.Click += new System.EventHandler(this.Vigenere_btnLuuFileBanro_Click);
             // 
             // Vigenere_btnChonfileBanro
             // 
             this.Vigenere_btnChonfileBanro.BackColor = System.Drawing.Color.Transparent;
-            this.Vigenere_btnChonfileBanro.Location = new System.Drawing.Point(6, 339);
+            this.Vigenere_btnChonfileBanro.Location = new System.Drawing.Point(6, 305);
             this.Vigenere_btnChonfileBanro.Name = "Vigenere_btnChonfileBanro";
             this.Vigenere_btnChonfileBanro.Size = new System.Drawing.Size(103, 36);
             this.Vigenere_btnChonfileBanro.TabIndex = 1;
-            this.Vigenere_btnChonfileBanro.Text = "Choose file";
+            this.Vigenere_btnChonfileBanro.Text = "Chọn tập tin";
             this.Vigenere_btnChonfileBanro.UseVisualStyleBackColor = false;
             this.Vigenere_btnChonfileBanro.Click += new System.EventHandler(this.Vigenere_btnChonfileBanro_Click);
             // 
@@ -282,7 +309,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(940, 420);
+            this.tabControl1.Size = new System.Drawing.Size(940, 471);
             this.tabControl1.TabIndex = 1;
             // 
             // Form1
@@ -290,7 +317,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(961, 460);
+            this.ClientSize = new System.Drawing.Size(961, 511);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -299,7 +326,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Vigenere Cipher";
+            this.Text = "Mật mã Vigenere ";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.tabPage5.ResumeLayout(false);
@@ -337,5 +364,7 @@
         private System.Windows.Forms.Button Vigenere_btnGiaima;
         private System.Windows.Forms.Button Vigenere_btnMahoa;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.Button Vigenere_btnChonKhoafileBanro;
+        private System.Windows.Forms.Button Vigenere_btnChonKhoaFileBanma;
     }
 }

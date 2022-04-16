@@ -53,11 +53,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(184, 9);
+            this.label1.Location = new System.Drawing.Point(142, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 25);
+            this.label1.Size = new System.Drawing.Size(233, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Team member";
+            this.label1.Text = "Thành viên nhóm BigO";
             // 
             // button1
             // 
@@ -66,7 +66,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 36);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Close";
+            this.button1.Text = "Đóng";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -76,9 +76,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(85, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 22);
+            this.label2.Size = new System.Drawing.Size(103, 22);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Name";
+            this.label2.Text = "Họ và Tên";
             // 
             // label3
             // 

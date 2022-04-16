@@ -29,7 +29,7 @@ namespace ProjectX
             }
             else
             {
-                MessageBox.Show("Sorry. Plaintext or Key Plaintext invalid.");return;
+                MessageBox.Show("Xin lỗi, vui lòng không được để trống ô bản rõ.");return;
             }         
         }
         private void Vigenere_btnClear_Click(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace ProjectX
         }
             else
             {
-                MessageBox.Show("Sorry. Ciphertext or Key Ciphertext invalid.");return;
+                MessageBox.Show("Xin lỗi, vui lòng không được để trống ô bản mã.");return;
             }
 }
 
@@ -77,6 +77,29 @@ namespace ProjectX
             }
         }
 
+        private void Vigenere_btnChonKhoafileBanro_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                StreamReader file = new StreamReader(open.FileName);
+                Vigenere_txtKhoaBanro.Text = file.ReadToEnd();
+                file.Close();
+            }
+        }
+
+        private void Vigenere_btnChonKhoaFileBanma_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                StreamReader file = new StreamReader(open.FileName);
+                Vigenere_txtKhoaBanma.Text = file.ReadToEnd();
+                file.Close();
+            }
+        }
         private void Vigenere_btnLuuFileBanro_Click(object sender, EventArgs e)
         {
             SaveFileDialog save = new SaveFileDialog();
@@ -96,7 +119,7 @@ namespace ProjectX
             if (save.ShowDialog() == DialogResult.OK)
             {
                 StreamWriter file = new StreamWriter(save.FileName);
-                file.Write(Vigenere_txtBanro.Text);
+                file.Write(Vigenere_txtBanma.Text);
                 file.Close();
             }
         }
